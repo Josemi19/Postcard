@@ -1,9 +1,12 @@
 body {
-	background: black; 
-	display: flex;
-	align-content: center;
-	justify-content: center;
+	background: black;
 }
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 600px;
+	}
 .postcard {
 	background: white;
 	width: 400px;
@@ -28,10 +31,10 @@ h1 {
 }
 .postcard-footer {
 	text-align: center;
+	padding-top: 20px;
 }
 button {
 	background-color: darkgray;
-	padding: 2px;
 }
 #p1 {
 	margin-top: 0px;
